@@ -13,6 +13,9 @@ DRIVERPACKS_LATEST_FEED = 'http://driverpacks.net/driverpacks/latest/feed'
 
 OEMBIOS_URL = 'http://www.oembios.net'
 
+# oembios is now here.  No automatic downloads yet...
+
+#https://onedrive.live.com/?cid=19ac037211016ca5&id=19AC037211016CA5!212
 # indexfile is file object
 def get_oembios_links(indexfile=None):
     if indexfile is None:
